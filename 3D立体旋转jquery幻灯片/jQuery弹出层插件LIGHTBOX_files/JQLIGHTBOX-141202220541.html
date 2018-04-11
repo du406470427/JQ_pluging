@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0049)http://www.jq22.com/demo/JQLIGHTBOX-141202220541/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+
+  <title>Lightbox弹出框</title>
+
+  <style type="text/css">
+
+* { margin: 0; padding: 0; list-style-type: none; }
+
+body { padding: 50px; min-height: 1500px; }
+
+.clearfix { zoom: 1; }
+
+.clearfix:after { content: ""; display: block; clear: both; height: 0; }
+
+hr { margin: 10px 0; }
+
+h1 { padding: 10px 0; }
+
+h5 { font-size: 16px; }
+
+.list a { width: 23%; float: left; padding: 15px 5%; }
+
+.list img { width: 100%; }
+
+</style>
+
+  <script type="text/javascript" src="./jquery.min(1).js"></script>
+
+  <!--lightbox开始-->
+
+  <link rel="stylesheet" type="text/css" href="./jquery.lightbox.css">
+
+  <!--[if IE 6]>
+
+ <link rel="stylesheet" type="text/css" href="js/lightbox/themes/default/jquery.lightbox.ie6.css" />
+
+<![endif]-->
+
+  <script type="text/javascript" src="./jquery.lightbox.min.js"></script>
+
+  <script type="text/javascript">
+
+    jQuery(document).ready(function($){
+
+      $('.lightbox').lightbox();
+
+    });
+
+  </script>
+
+  <!--结束-->
+
+
+
+  </head>
+
+
+
+  <body>
+
+<h1>Lightbox弹出框.支持, 图片、Html、swt等.需要JQ版本 1.3+</h1>
+
+<h5>弹出框随窗口滚动</h5>
+
+<div class="list clearfix"> <a href="http://www.jq22.com/demo/JQLIGHTBOX-141202220541/images/a1.jpg?lightbox[maximized]=true" class="lightbox" rel="list1" title="随窗口滚动添加函数?lightbox[maximized]=true"> <img src="./a1.jpg"> </a> </div>
+
+<hr>
+
+<h5>图组</h5>
+
+<div class="list clearfix"> <a href="./a1.jpg" class="lightbox" rel="list2"> <img src="./a1.jpg"> </a> <a href="./a2.jpg" class="lightbox" rel="list2"> <img src="./a2.jpg"> </a> <a href="./a3.jpg" class="lightbox" rel="list2"> <img src="./a3.jpg"> </a> </div>
+
+<hr>
+
+<h5>弹出框固定大小</h5>
+
+<div class="list clearfix"> <a href="http://www.jq22.com/demo/JQLIGHTBOX-141202220541/images/a1.jpg?lightbox[width]=400&amp;lightbox[height]=400" class="lightbox" rel="list3" title="固定大小弹出框?lightbox[width]=400&amp;lightbox[height]=400"> <img src="./a1.jpg"> </a> </div>
+
+<hr>
+
+<h5>swf加载</h5>
+
+<div class="list clearfix"> <a href="http://player.youku.com/player.php/sid/XNzU0NjEzODU2/v.swf?lightbox[width]=700&amp;lightbox[height]=400" class="lightbox"> <img src="./a1.jpg"> </a> </div>
+
+<hr>
+
+<h5>html加载</h5>
+
+<div class="list clearfix"> <a href="http://www.jq22.com/demo/JQLIGHTBOX-141202220541/test.html?lightbox[width]=350&amp;lightbox[height]=170" class="lightbox"> <img src="./a1.jpg"> </a> </div>
+
+
+
+
+
+<div id="1493886258898" class="jquery-lightbox-overlay" style="position: fixed; top: 0px; left: 0px; opacity: 0.6; display: none; z-index: 99998;"></div><div class="jquery-lightbox-move" style="position: absolute; z-index: 99999; top: -999px;"><div class="jquery-lightbox jquery-lightbox-mode-image"><div class="jquery-lightbox-border-top-left"></div><div class="jquery-lightbox-border-top-middle"></div><div class="jquery-lightbox-border-top-right"></div><a class="jquery-lightbox-button-close" href="http://www.jq22.com/demo/JQLIGHTBOX-141202220541/#close"><span>Close</span></a><div class="jquery-lightbox-navigator"><a class="jquery-lightbox-button-left" href="http://www.jq22.com/demo/JQLIGHTBOX-141202220541/#"><span>Previous</span></a><a class="jquery-lightbox-button-right" href="http://www.jq22.com/demo/JQLIGHTBOX-141202220541/#"><span>Next</span></a></div><div class="jquery-lightbox-buttons"><div class="jquery-lightbox-buttons-init"></div><a class="jquery-lightbox-button-left" href="http://www.jq22.com/demo/JQLIGHTBOX-141202220541/#"><span>Previous</span></a><a class="jquery-lightbox-button-max" href="http://www.jq22.com/demo/JQLIGHTBOX-141202220541/#"><span>Maximize</span></a><div class="jquery-lightbox-buttons-custom"></div><a class="jquery-lightbox-button-right" href="http://www.jq22.com/demo/JQLIGHTBOX-141202220541/#"><span>Next</span></a><div class="jquery-lightbox-buttons-end"></div></div><div class="jquery-lightbox-background"></div><div class="jquery-lightbox-html"></div><div class="jquery-lightbox-border-bottom-left"></div><div class="jquery-lightbox-border-bottom-middle"></div><div class="jquery-lightbox-border-bottom-right"></div></div></div></body></html>
